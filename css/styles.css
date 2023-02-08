@@ -11,9 +11,8 @@
 }
 
 body {
-    font-family: 'Roboto'; sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--color-brand);
-    font-weight: 400;
 }
 
 ul {
@@ -42,7 +41,7 @@ ul {
 }
 
 .logo-first {
-    font-family: 'Raleway'; sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -53,32 +52,30 @@ ul {
 }
 
 .logo-second {
-    font-family: 'Raleway'; sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--color-brand);
-    text-decoration: none;
+}
+
+.hero-section {
+    background-color: var(--color-brand); 
 }
 
 .hero-title {
     color: var(--color-primary-inverted);
-    background-color: var(--color-brand); 
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
 }
 
 .button-service {
     color: var(--color-primary-inverted);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     background: var(--color-secondary);
-    box-shadow: var(service-btn);
+    box-shadow: var(--service-btn);
     border-radius: 4px; 
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button-service:hover {
@@ -108,7 +105,6 @@ ul {
 }
 
 .section-header {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -130,22 +126,17 @@ ul {
 }
 
 .footer {
-    background-color:var(--color-brand);
+    background-color: var(--color-brand);
 }
 .footer-text {
     color: var(--color-secondary-inverted);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+
 .logo-footer {
-    font-family: "Raleway"; sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color:var(--color-btn-background);
-    text-decoration: none;
 }
 
 .filter-button-header {
@@ -154,9 +145,11 @@ ul {
 
 .filter-button {
     color: var(--color-secondary);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     background: var(--color-btn-background);
     border: 1px solid var(--color-secondary-inverted);
     border-radius: 4px;  
@@ -186,7 +179,6 @@ ul {
 
 .service-text {
     color: var(--color-primary);
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
